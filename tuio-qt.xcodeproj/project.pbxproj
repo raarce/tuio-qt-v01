@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/rarce/tmp/tuio-qt\ -f\ \'tuio-qt.xcodeproj/qt_makeqmake.mak\'";
+		};
+		7133305E2FC93244F3D6961C = {
+			isa = PBXFileReference;
+			name = "NetworkingUtils.cpp";
+			path = "oscpack/ip/posix/NetworkingUtils.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D52ACCC2165B17FAB229EF4D = {
+			fileRef = "7133305E2FC93244F3D6961C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A54E29DCFAEF11CBE6701FC2 = {
+			isa = PBXFileReference;
+			name = "OscTypes.cpp";
+			path = "oscpack/osc/OscTypes.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8F48FB6FE0B5E5A4434B22F7 = {
+			fileRef = "A54E29DCFAEF11CBE6701FC2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1E4DFB7593FB854C9F10BACF = {
+			isa = PBXFileReference;
+			name = "OscReceivedElements.cpp";
+			path = "oscpack/osc/OscReceivedElements.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		99B200B5042AC4583E1BB923 = {
+			fileRef = "1E4DFB7593FB854C9F10BACF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EE2ECC005937B826C42463E2 = {
+			isa = PBXFileReference;
+			name = "OscPrintReceivedElements.cpp";
+			path = "oscpack/osc/OscPrintReceivedElements.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B58131482A0A084DC7123761 = {
+			fileRef = "EE2ECC005937B826C42463E2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AE3CF4E97789BE130C13A539 = {
+			isa = PBXFileReference;
+			name = "TuioTime.cpp";
+			path = "TUIO/TuioTime.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8A7A3C81393DDB6277762F2F = {
+			fileRef = "AE3CF4E97789BE130C13A539";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		565277B6BA2494A06BF6A674 = {
+			isa = PBXFileReference;
+			name = "UdpSocket.cpp";
+			path = "oscpack/ip/posix/UdpSocket.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E64CDEB0DA2B2B07ED65DD80 = {
+			fileRef = "565277B6BA2494A06BF6A674";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B65C642A6C0D006487B320B9 = {
+			isa = PBXFileReference;
+			name = "TuioClient.cpp";
+			path = "TUIO/TuioClient.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6FB41442A650E4EF43B2C7C9 = {
+			fileRef = "B65C642A6C0D006487B320B9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		43D7B00DC473FF28DD84DD46 = {
+			isa = PBXFileReference;
+			name = "TuioDemo.cpp";
+			path = "TuioDemo.cpp";
+			refType = 4;
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		38002A032A6878A6EC4B0A07 = {
+			fileRef = "43D7B00DC473FF28DD84DD46";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C2FA0E4EF19B524673D526DF = {
+			isa = PBXFileReference;
+			name = "NetworkingUtils.h";
+			path = "oscpack/ip/NetworkingUtils.h";
+			refType = 4;
+		};
+		04F40B5C4E278025F18888F0 = {
+			isa = PBXFileReference;
+			name = "OscTypes.h";
+			path = "oscpack/osc/OscTypes.h";
+			refType = 4;
+		};
+		89352E0E7C129EA9523CC241 = {
+			isa = PBXFileReference;
+			name = "OscReceivedElements.h";
+			path = "oscpack/osc/OscReceivedElements.h";
+			refType = 4;
+		};
+		DC0F2FC57F840B1DB9D500A4 = {
+			isa = PBXFileReference;
+			name = "OscPrintReceivedElements.h";
+			path = "oscpack/osc/OscPrintReceivedElements.h";
+			refType = 4;
+		};
+		18F1113DDE588CBA4FC86A2D = {
+			isa = PBXFileReference;
+			name = "TuioTime.h";
+			path = "TUIO/TuioTime.h";
+			refType = 4;
+		};
+		1CA4BE7D59196173018679B9 = {
+			isa = PBXFileReference;
+			name = "TuioClient.h";
+			path = "TUIO/TuioClient.h";
+			refType = 4;
+		};
+		E608C5EF20C578B507235414 = {
+			isa = PBXFileReference;
+			name = "TuioDemo.h";
+			path = "TuioDemo.h";
+			refType = 4;
+		};
+		13DAE31CFCB0EC4B9EFB2B5E = {
+			isa = PBXFileReference;
+			name = "OscPacketListener.h";
+			path = "oscpack/osc/OscPacketListener.h";
+			refType = 4;
+		};
+		B6E7CCD7FDBD033101D9A21C = {
+			isa = PBXFileReference;
+			name = "OscHostEndianness.h";
+			path = "oscpack/osc/OscHostEndianness.h";
+			refType = 4;
+		};
+		B4655B84944237C5A2C83B6A = {
+			isa = PBXFileReference;
+			name = "OscException.h";
+			path = "oscpack/osc/OscException.h";
+			refType = 4;
+		};
+		DA0E60906682F6F9F3A15E6D = {
+			isa = PBXFileReference;
+			name = "UdpSocket.h";
+			path = "oscpack/ip/UdpSocket.h";
+			refType = 4;
+		};
+		A35E5082E16E1AC43984AB1C = {
+			isa = PBXFileReference;
+			name = "TimerListener.h";
+			path = "oscpack/ip/TimerListener.h";
+			refType = 4;
+		};
+		06346B8BDBFC54EA6A276825 = {
+			isa = PBXFileReference;
+			name = "PacketListener.h";
+			path = "oscpack/ip/PacketListener.h";
+			refType = 4;
+		};
+		64EAE1BF40D5E8FCAC77C576 = {
+			isa = PBXFileReference;
+			name = "TuioPoint.h";
+			path = "TUIO/TuioPoint.h";
+			refType = 4;
+		};
+		7A9282FE287FD8F65E9540E3 = {
+			isa = PBXFileReference;
+			name = "TuioObject.h";
+			path = "TUIO/TuioObject.h";
+			refType = 4;
+		};
+		AF9D0B2E064B1B7DEBC73B67 = {
+			isa = PBXFileReference;
+			name = "TuioListener.h";
+			path = "TUIO/TuioListener.h";
+			refType = 4;
+		};
+		FE4D287C58070AC073274C4E = {
+			isa = PBXFileReference;
+			name = "TuioCursor.h";
+			path = "TUIO/TuioCursor.h";
+			refType = 4;
+		};
+		CB88B7F6C5B4AAA15B5184D8 = {
+			isa = PBXFileReference;
+			name = "TuioContainer.h";
+			path = "TUIO/TuioContainer.h";
+			refType = 4;
+		};
+		20CE806F1C6AC1C292079E8D = {
+			isa = PBXFileReference;
+			name = "tuio-qt.pro";
+			path = "tuio-qt.pro";
+			refType = 4;
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"9325B036F51BBF7998C10D7F",
+				"37507B62A8D8F1C3F1A00617",
+				"E608C5EF20C578B507235414");
+			name = "Headers";
+			refType = 4;
+		};
+		37507B62A8D8F1C3F1A00617 = {
+			isa = PBXGroup;
+			children = (
+				"18F1113DDE588CBA4FC86A2D",
+				"1CA4BE7D59196173018679B9",
+				"64EAE1BF40D5E8FCAC77C576",
+				"7A9282FE287FD8F65E9540E3",
+				"AF9D0B2E064B1B7DEBC73B67",
+				"FE4D287C58070AC073274C4E",
+				"CB88B7F6C5B4AAA15B5184D8");
+			name = "TUIO";
+			refType = 4;
+		};
+		9325B036F51BBF7998C10D7F = {
+			isa = PBXGroup;
+			children = (
+				"043536CF79AEF6EA276539B2",
+				"494C18DC8AE9BB69F24812D9");
+			name = "oscpack";
+			refType = 4;
+		};
+		043536CF79AEF6EA276539B2 = {
+			isa = PBXGroup;
+			children = (
+				"C2FA0E4EF19B524673D526DF",
+				"DA0E60906682F6F9F3A15E6D",
+				"A35E5082E16E1AC43984AB1C",
+				"06346B8BDBFC54EA6A276825");
+			name = "ip";
+			refType = 4;
+		};
+		494C18DC8AE9BB69F24812D9 = {
+			isa = PBXGroup;
+			children = (
+				"04F40B5C4E278025F18888F0",
+				"89352E0E7C129EA9523CC241",
+				"DC0F2FC57F840B1DB9D500A4",
+				"13DAE31CFCB0EC4B9EFB2B5E",
+				"B6E7CCD7FDBD033101D9A21C",
+				"B4655B84944237C5A2C83B6A");
+			name = "osc";
+			refType = 4;
+		};
+		421A2CCDC16D6D10821B15B4 = {
+			isa = PBXGroup;
+			children = (
+				"AE3CF4E97789BE130C13A539",
+				"B65C642A6C0D006487B320B9");
+			name = "TUIO";
+			refType = 4;
+		};
+		E65CE01B1BC027D5537CB6F2 = {
+			isa = PBXGroup;
+			children = (
+				"3A2FF06DBFE1FE2DD6788B94",
+				"06C12BFE15326EBED630E863");
+			name = "oscpack";
+			refType = 4;
+		};
+		3A2FF06DBFE1FE2DD6788B94 = {
+			isa = PBXGroup;
+			children = (
+				"8AC40E584BA220BB90DF1293");
+			name = "ip";
+			refType = 4;
+		};
+		8AC40E584BA220BB90DF1293 = {
+			isa = PBXGroup;
+			children = (
+				"7133305E2FC93244F3D6961C",
+				"565277B6BA2494A06BF6A674");
+			name = "posix";
+			refType = 4;
+		};
+		06C12BFE15326EBED630E863 = {
+			isa = PBXGroup;
+			children = (
+				"A54E29DCFAEF11CBE6701FC2",
+				"1E4DFB7593FB854C9F10BACF",
+				"EE2ECC005937B826C42463E2");
+			name = "osc";
+			refType = 4;
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"E65CE01B1BC027D5537CB6F2",
+				"421A2CCDC16D6D10821B15B4",
+				"43D7B00DC473FF28DD84DD46");
+			name = "Sources";
+			refType = 4;
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"20CE806F1C6AC1C292079E8D");
+			name = "Sources [qmake]";
+			refType = 4;
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"D52ACCC2165B17FAB229EF4D",
+				"8F48FB6FE0B5E5A4434B22F7",
+				"99B200B5042AC4583E1BB923",
+				"B58131482A0A084DC7123761",
+				"8A7A3C81393DDB6277762F2F",
+				"E64CDEB0DA2B2B07ED65DD80",
+				"6FB41442A650E4EF43B2C7C9",
+				"38002A032A6878A6EC4B0A07");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"D52ACCC2165B17FAB229EF4D",
+				"8F48FB6FE0B5E5A4434B22F7",
+				"99B200B5042AC4583E1BB923",
+				"B58131482A0A084DC7123761",
+				"8A7A3C81393DDB6277762F2F",
+				"E64CDEB0DA2B2B07ED65DD80",
+				"6FB41442A650E4EF43B2C7C9",
+				"38002A032A6878A6EC4B0A07");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/rarce/tmp/tuio-qt\ -f\ \'tuio-qt.xcodeproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"D52ACCC2165B17FAB229EF4D",
+				"8F48FB6FE0B5E5A4434B22F7",
+				"99B200B5042AC4583E1BB923",
+				"B58131482A0A084DC7123761",
+				"8A7A3C81393DDB6277762F2F",
+				"E64CDEB0DA2B2B07ED65DD80",
+				"6FB41442A650E4EF43B2C7C9",
+				"38002A032A6878A6EC4B0A07");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFrameworkReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFrameworkReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"9B36DA7E32F0304E780E7972",
+				"7BC2E65A5E699A5E5D834CA2");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"501667F26B3C1FF6767A7C12",
+				"069D05B0128AE5DC7EE31738");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		F6069D5A5DA8AA28EDB8B3C6 = {
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			dstPath = "/Users/rarce/tmp/tuio-qt";
+			dstSubfolderSpec = 0;
+			files = (
+"07E0DFA73EB56DCB9E28CDD9");
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E0DFA73EB56DCB9E28CDD9 = {
+			fileRef = "0769ADFC2AB91BB0F0305E27";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "tuio-qt";
+			path = "";
+			refType = 4;
+		};
+		0769ADFC2AB91BB0F0305E27 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "tuio-qt.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"0769ADFC2AB91BB0F0305E27");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		715CCBF5B4F1C794C42CF86E = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"F6069D5A5DA8AA28EDB8B3C6",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/usr/include",
+					"oscpack",
+					"TUIO",
+					"sdl/include",
+					".",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.7/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks");
+				OPTIMIZATION_CFLAGS = (
+					);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-g",
+					"-Wall",
+					"-W",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/rarce/tmp/tuio-qt";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks",
+						"-lSDL",
+						"-lSDLmain");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				PRODUCT_NAME = "tuio-qt";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "0769ADFC2AB91BB0F0305E27";
+			shouldUseHeadermap = 1;
+			isa = PBXNativeTarget;
+			productType = "com.apple.product-type.application";
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+    <key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>tuio-qt</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.tuio-qt</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "tuio-qt";
+			productName = "tuio-qt";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		8DB1DD96F65B1BF1FFC506E0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			name = "Debug";
+		};
+		2C641C3335766025DD51B7BD = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			isa = "PBXBuildStyle";
+			name = "Debug";
+		};
+		95E1EB2E5DDD587BE5B3E548 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			name = "Release";
+		};
+		26DE8D2AEA4B3714B41E931F = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			isa = "PBXBuildStyle";
+			name = "Release";
+		};
+		2A951308CDB28F104D0A4BD2 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"8DB1DD96F65B1BF1FFC506E0",
+				"95E1EB2E5DDD587BE5B3E548");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationIsName = "Debug";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"2C641C3335766025DD51B7BD",
+				"26DE8D2AEA4B3714B41E931F");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			buildConfigurationList = "2A951308CDB28F104D0A4BD2";
+			projectDirPath = "";
+			targets = (
+				"715CCBF5B4F1C794C42CF86E");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
